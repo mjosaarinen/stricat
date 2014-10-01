@@ -11,7 +11,7 @@ README
 	6. Networking and File Transfer
 	7. Binding a Shell or Command
 
-## 1. Introduction and License
+## 1. Introduction
 
 	This is a quick tutorial to the StriCat (pronounced "stree cat")
 	multi-use cryptographic tool, which can be used to hash, encrypt, and
