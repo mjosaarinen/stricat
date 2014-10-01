@@ -3,22 +3,22 @@ README
 
 # stricat 1.20140429 by Markku-Juhani O. Saarinen <mjos@iki.fi>
 
-	1. Introduction and License
-	2. Download, Compile, and Test
-	3. Hashing
-	4. Keying
-	5. Encryption and Decryption
-	6. Networking and File Transfer
-	7. Binding a Shell or Command
+1. Introduction and License
+2. Download, Compile, and Test
+3. Hashing
+4. Keying
+5. Encryption and Decryption
+6. Networking and File Transfer
+7. Binding a Shell or Command
 
 ## 1. Introduction
 
-	This is a quick tutorial to the StriCat (pronounced "stree cat")
-	multi-use cryptographic tool, which can be used to hash, encrypt, and
-	decrypt files and to establish secure communication links over TCP.
-	StriCat has been designed to be self-contained, portable, and extremely
-	lightweight (only few thousand lines). StriCat is also able to perform
-	GOST R 34.11-2012 "Streebog" - compliant hashing.
+This is a quick tutorial to the StriCat (pronounced "stree cat")
+multi-use cryptographic tool, which can be used to hash, encrypt, and
+decrypt files and to establish secure communication links over TCP.
+StriCat has been designed to be self-contained, portable, and extremely
+lightweight (only few thousand lines). StriCat is also able to perform
+GOST R 34.11-2012 "Streebog" - compliant hashing.
 
 	StriCat is based on the STRIBOB cryptographic permutation (which is
 	a CAESAR candidate) and the BLINKER sponge mode of operation
@@ -179,7 +179,7 @@ README
 	-d
 	```
 	 Decrypt a stream or files.
-	```
+
 	The ".sb1" suffix is added to encrypted files and expected from files
 	to be decryption.
 
@@ -299,6 +299,3 @@ README
 	 alice$ ./stricat -k keu -c bobby "/bin/bash -i"
 	```
 	And target's shell will pop up at bobby.
-
-
-
